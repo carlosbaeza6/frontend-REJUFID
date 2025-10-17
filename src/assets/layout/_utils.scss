@@ -1,0 +1,51 @@
+/* Utils */
+.clearfix:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.card {
+    background: var(--surface-card);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: var(--content-border-radius);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.p-toast {
+    &.p-toast-top-right,
+    &.p-toast-top-left,
+    &.p-toast-top-center {
+        top: 100px;
+    }
+}
+
+/* Estilos personalizados para PrimeVue DataTable */
+
+.p-datatable thead th {
+  background-color: #065f46 !important;
+  color: white;
+  font-weight: 600;
+}
+
+.p-datatable tbody td {
+  border: none;
+  padding: 0.75rem 1rem;
+}
+
+.p-datatable {
+  border: none;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
+}
+
+.form-expediente label {
+  color: #005C4D;
+}
+
+  
